@@ -68,3 +68,16 @@ currentMenu: home
 
 # Welcome
 ```
+
+## TODO
+
+Want to help?
+
+The original template can with a lot of SASS files and features. Some features are not ported to this Couscous template (e.g. the search).
+
+What would be good to do:
+
+- find a way to cleanly handle the SASS files and the `theme.css` (which contains the generated/minified CSS) which right now are duplicates. Relying on SASS wouldn't be a good idea though since it would be end-users have to install SASS.
+- clean up unused CSS and SASS style (e.g. search bar, …)
+
+In the meantime, the original minified `theme.css` is used and it works just great.
