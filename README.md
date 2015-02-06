@@ -73,7 +73,7 @@ currentMenu: home
 
 Want to help?
 
-The original template can with a lot of SASS files and features. Some features are not ported to this Couscous template (e.g. the search).
+The original template came with a lot of SASS files and features. Some features are not ported to this Couscous template (e.g. the search).
 
 What would be good to do:
 
