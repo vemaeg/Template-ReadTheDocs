@@ -14,7 +14,7 @@ menu:
         home:
             text: Home page
             # You can use relative urls
-            relativeUrl: /
+            relativeUrl:
         couscous:
             text: Couscous.io
             # Or absolute urls
