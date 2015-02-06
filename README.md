@@ -2,7 +2,11 @@
 currentMenu: home
 ---
 
-# Couscous ReadTheDocs template
+# Read The Docs template for Couscous
+
+[Read The Docs](https://readthedocs.org/) builds websites using a Sphinx theme. [That theme](https://github.com/snide/sphinx_rtd_theme) is open source and released under the MIT license.
+
+This project is a port of the Sphinx theme to Couscous.
 
 ## Usage
 

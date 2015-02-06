@@ -15,6 +15,12 @@ menu:
             text: Home page
             # You can use relative urls
             relativeUrl:
+        getting-started:
+            text: Getting Started
+            relativeUrl:
+        faq:
+            text: FAQ
+            relativeUrl:
         couscous:
             text: Couscous.io
             # Or absolute urls
