@@ -54,11 +54,13 @@
 
                     <footer>
                         <hr/>
-                        <div role="contentinfo">
-                            <p>
-                                Find {{ title }} on <a href="https://github.com/{{ github.user }}/{{ github.repo }}">GitHub</a>.
-                            </p>
-                        </div>
+                        {% if not github is empty %}
+                            <div role="contentinfo">
+                                <p>
+                                    Find {{ title }} on <a href="https://github.com/{{ github.user }}/{{ github.repo }}">GitHub</a>.
+                                </p>
+                            </div>
+                        {% endif %}
                         Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
                     </footer>
 
