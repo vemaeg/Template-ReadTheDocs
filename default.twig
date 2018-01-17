@@ -52,6 +52,7 @@
                         {{ content|raw }}
                     </div>
 
+
                     <footer>
                         <hr/>
                         {% if not github is empty %}
@@ -61,7 +62,12 @@
                                 </p>
                             </div>
                         {% endif %}
-                        Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
+
+                        {% if footer %}
+                            {{ footer }}
+                        {% else %}
+                            Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
+                        {% endif %}
                     </footer>
 
                 </div>
