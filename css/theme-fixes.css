@@ -24,3 +24,13 @@ pre {
     background: #fff;
     margin: 1px 0 24px 0;
 }
+
+/* Lists */
+.wy-nav-content ul {
+    margin-left: 20px;
+    margin-bottom: 22px;
+}
+
+.wy-nav-content li {
+    list-style: initial;
+}
