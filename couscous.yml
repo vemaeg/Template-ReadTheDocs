@@ -5,6 +5,10 @@ github:
     user: CouscousPHP
     repo: Template-ReadTheDocs
 
+piwik:
+    host: my.host.com
+    siteId: mySiteId
+
 title: ReadTheDocs template
 subTitle: A template based on readthedocs.org
 

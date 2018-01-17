@@ -32,6 +32,11 @@ github:
     user: myself
     repo: my-project
 
+# Optional: Integrate Piwik if defined
+piwik:
+    host: my.host.com
+    siteId: mySiteId # e.g. 1
+
 title: My project
 footer: This is a great project.
 
