@@ -26,11 +26,55 @@ pre {
 }
 
 /* Lists */
-.wy-nav-content ul {
+.wy-nav-content ul, ol {
     margin-left: 20px;
     margin-bottom: 22px;
 }
 
-.wy-nav-content li {
+.wy-nav-content ul {
     list-style: initial;
+}
+
+.wy-nav-content ol {
+    list-style: decimal;
+}
+
+.wy-nav-content li {
+    list-style: inherit;
+}
+
+.wy-nav-content table {
+    margin-bottom: 22px;
+}
+
+.wy-nav-content table th {
+    text-align: left;
+    background-color: rgba(0,0,0,0.07);
+    border-bottom: 1px solid rgb(150,150,150);
+}
+
+.wy-nav-content table tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.07);
+}
+
+.wy-nav-content table th,td {
+    padding: 4px;
+}
+
+.wy-nav-content a:visited {
+    color: #2980B9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wy-nav-content a:hover {
+    text-decoration: underline;
+}
+
+.wy-nav-content blockquote {
+    margin-left: 0;
+    padding-left: 10px;
+    border-left: solid 3px #6ab0de;
+    background: #e7f2fa;
+    color: #2980B9;
 }
