@@ -66,7 +66,7 @@
                         {% endif %}
 
                         {% if footer %}
-                            {{ footer }}
+                            {{ footer|replace({'%now%': now|date('d.m.Y'), '%year%': now|date('Y'), '%version%': "%03d"|format(version)}) }}
                         {% else %}
                             Built with <a href="http://couscous.io/">Couscous</a> using a <a href="https://github.com/CouscousPHP/Template-ReadTheDocs">theme</a> based on <a href="https://readthedocs.org/">Read the Docs</a>.
                         {% endif %}
